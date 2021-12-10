@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 14px;
+  align-items: flex-start;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  height: 10px;
+}
+
+.fa {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: black;
+}
+
+.login-wrapper,
+.register-wrapper {
+  background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  height: 100vh;
+  padding: 50px 0;
+}
+
+.register-form,
+.login-form,
+.add-client-form {
+  width: 400px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3);
+  padding: 18px 0;
+  text-align: center;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-form label,
+.register-form label {
+  width: 60px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  background: none;
+  margin: 0.9rem 2rem;
+  font-size: 1rem;
+}
+
+label {
+  margin: 0 2rem;
+}
+
+span {
+  margin: 0 2rem;
+  color: blue;
+  cursor: pointer;
+}
+
+.btn-login,
+.btn-register {
+  margin: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 12px 35px;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  color: #fff;
+  background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+}
+
+/* ........///Sign-Up///......... */
+p {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0.2rem;
+}
+
+.icons .fa-facebook-f {
+  border-radius: 50%;
+  background: #5d75ab;
+  color: #fff;
+  padding: 1rem;
+}
+
+.icons .fa-twitter {
+  border-radius: 50%;
+  background: #1da1f2;
+  color: white;
+  padding: 1rem;
+}
+
+.icons .fa-google {
+  border-radius: 50%;
+  background: #ee5645;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* ....///Display client - Table ///..... */
+.table .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ....///Media query///..... */
+
+@media (max-width: 501px) {
+  html {
+    font-size: 15px;
+  }
+
+  .container .login-form {
+    width: 300px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
